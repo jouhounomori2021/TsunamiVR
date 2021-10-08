@@ -1,3 +1,5 @@
+/* ボタンによる画面遷移(Scene間)に関するスクリプト */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

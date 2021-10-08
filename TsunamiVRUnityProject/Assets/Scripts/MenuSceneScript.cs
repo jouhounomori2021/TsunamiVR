@@ -1,3 +1,5 @@
+/* MenuSceneに関するスクリプト */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,13 +9,17 @@ public class MenuSceneScript : MonoBehaviour
 {
 
     public GameObject menuMainPanel;
-    public GameObject menuOptionPanel;
+    public GameObject optionPanel;
+    public GameObject overviewPanel;
+    public GameObject creditPanel;
 
     // Start is called before the first frame update
     void Start()
     {
         menuMainPanel.SetActive(true);
-        menuOptionPanel.SetActive(false);
+        optionPanel.SetActive(false);
+        overviewPanel.SetActive(false);
+        creditPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,16 +28,35 @@ public class MenuSceneScript : MonoBehaviour
         
     }
 
-    public void SwitchMenuOptionPanel()
+    public void SwitchToOptionPanel()
     {
         menuMainPanel.SetActive(false);
-        menuOptionPanel.SetActive(true);
+        optionPanel.SetActive(true);
+        overviewPanel.SetActive(false);
+        creditPanel.SetActive(false);
     }
 
-    public void SwitchMenuMainPanel()
+    public void SwitchToMenuMainPanel()
     {
         menuMainPanel.SetActive(true);
-        menuOptionPanel.SetActive(false);
+        optionPanel.SetActive(false);
+        overviewPanel.SetActive(false);
+        creditPanel.SetActive(false);
     }
 
+    public void SwitchToOverviewPanel()
+    {
+        menuMainPanel.SetActive(false);
+        optionPanel.SetActive(false);
+        overviewPanel.SetActive(true);
+        creditPanel.SetActive(false);
+    }
+
+    public void SwitchToCreditPanel()
+    {
+        menuMainPanel.SetActive(false);
+        optionPanel.SetActive(false);
+        overviewPanel.SetActive(false);
+        creditPanel.SetActive(true);
+    }
 }
