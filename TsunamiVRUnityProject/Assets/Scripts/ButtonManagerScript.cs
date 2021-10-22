@@ -1,4 +1,4 @@
-/* ƒ{ƒ^ƒ“‚É‚æ‚é‰æ–Ê‘JˆÚ(SceneŠÔ)‚ÉŠÖ‚·‚éƒXƒNƒŠƒvƒg */
+/* ï¿½{ï¿½^ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Ê‘Jï¿½ï¿½(Sceneï¿½ï¿½)ï¿½ÉŠÖ‚ï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½g */
 
 using System.Collections;
 using System.Collections.Generic;
@@ -8,10 +8,14 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManagerScript : MonoBehaviour
 {
+
+    //ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½iï¿½[ï¿½pï¿½Ïï¿½
+    public AudioSource sound01;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        sound01 = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -20,21 +24,24 @@ public class ButtonManagerScript : MonoBehaviour
         
     }
 
-    /* MenuScene‚ÖˆÚs‚·‚éƒ{ƒ^ƒ“‚Ì“®ì */
+    /* MenuSceneï¿½ÖˆÚsï¿½ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½ */
     public void ToMenuButton()
     {
+        sound01.PlayOneShot(sound01.clip);
         SceneManager.LoadScene("MenuScene");
     }
 
-    /* MapScene‚ÖˆÚs‚·‚éƒ{ƒ^ƒ“‚Ì“®ì */
+    /* MapSceneï¿½ÖˆÚsï¿½ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½ */
     public void ToMapButton()
     {
+        sound01.PlayOneShot(sound01.clip);
         SceneManager.LoadScene("MapScene");
     }
 
-    /* MainScene‚ÖˆÚs‚·‚éƒ{ƒ^ƒ“‚Ì“®ì */
+    /* MainSceneï¿½ÖˆÚsï¿½ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½ */
     public void ToMainButton()
     {
+        sound01.PlayOneShot(sound01.clip);
         SceneManager.LoadScene("MainScene");
     }
 
