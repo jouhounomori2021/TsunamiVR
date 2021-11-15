@@ -15,12 +15,12 @@ D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61842
+55738
 Successfully changed project path to: D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.75 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 1.19 ms.
+Refreshing native plugins compatible for Editor in 88.18 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.29 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity/TsunamiVR1/TsunamiVRUnityProject/Assets
@@ -36,76 +36,106 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002439 seconds.
+Registered in 0.002627 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.54 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 79.39 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.187 seconds
+- Completed reload, in  2.161 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003610 seconds.
+Registered in 0.003745 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002217F098020 doesn't match image D:\Unity\TsunamiVR1\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002217F146010 doesn't match image D:\Unity\TsunamiVR1\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.65.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
+- Completed reload, in  1.101 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 13 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 125.4 MB.
 System memory in use after: 124.7 MB.
 
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2619.
-Total: 3.632900 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.056400 ms MarkObjects: 2.362800 ms  DeleteObjects: 0.934200 ms)
+Total: 3.277900 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.133100 ms MarkObjects: 1.984600 ms  DeleteObjects: 0.735300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(c8b69045d0e22474e869f9fd3e7641eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(c8b69045d0e22474e869f9fd3e7641eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bf2d61a5dfaa90fb702de89f9d1e59') in 0.020386 seconds
-  Import took 0.025002 seconds .
+  path: Assets/Resources/Prefabs/VRCanvas.prefab
+  artifactKey: Guid(746aeff94bacab743a800f35cb3cf08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/VRCanvas.prefab using Guid(746aeff94bacab743a800f35cb3cf08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2719266a6eb40c367390b82e2b332b') in 0.059507 seconds
+  Import took 0.063223 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.828396 seconds.
-  path: Assets/Scenes/MapScene.unity
-  artifactKey: Guid(19feca994c0d26045931665aaa9a5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MapScene.unity using Guid(19feca994c0d26045931665aaa9a5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239688bde32f15a3a5f491164a3c6365') in 0.007802 seconds
-  Import took 0.011699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.748922 seconds.
-  path: Assets/Scenes/MenuScene.unity
-  artifactKey: Guid(a21a74802aa7df94eb45ce5bebf20fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MenuScene.unity using Guid(a21a74802aa7df94eb45ce5bebf20fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bddb0d33dc39183ab2f9d76f9c84bb') in 0.007006 seconds
-  Import took 0.010728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.707445 seconds.
+  Time since last request: 13.502748 seconds.
   path: Assets/Scenes/StartScene.unity
   artifactKey: Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StartScene.unity using Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cb71e9270ab77de48c39cca1eef56a') in 0.028843 seconds
-  Import took 0.032878 seconds .
+Start importing Assets/Scenes/StartScene.unity using Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2274ab5e8dd1ad6f87891db3b159191') in 0.002607 seconds
+  Import took 0.006135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.710926 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(c8b69045d0e22474e869f9fd3e7641eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(c8b69045d0e22474e869f9fd3e7641eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23fd2a1bbafbef03400db3c0d92956c') in 0.002206 seconds
+  Import took 0.006233 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003736 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002217F098020 doesn't match image D:\Unity\TsunamiVR1\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002217F452030 doesn't match image D:\Unity\TsunamiVR1\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2043 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 112.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 3.160900 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.071800 ms  DeleteObjects: 0.770800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.638402 seconds.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac1464df3e5ae19cfdd4e0caa13d017') in 0.023810 seconds
+  Import took 0.027711 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
