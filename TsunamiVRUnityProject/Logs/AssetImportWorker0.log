@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'ja' Physical Memory: 16316 MB
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 16316 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity/TsunamiVR01/TsunamiVRUnityProject
+D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60463
-Successfully changed project path to: D:/Unity/TsunamiVR01/TsunamiVRUnityProject
-D:/Unity/TsunamiVR01/TsunamiVRUnityProject
+61926
+Successfully changed project path to: D:/Unity/TsunamiVR1/TsunamiVRUnityProject
+D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.37 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 1.19 ms.
+Refreshing native plugins compatible for Editor in 90.31 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.24 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/TsunamiVR01/TsunamiVRUnityProject/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/TsunamiVR1/TsunamiVRUnityProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -36,101 +36,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003519 seconds.
+Registered in 0.002539 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.82 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 76.36 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.548 seconds
+- Completed reload, in  2.160 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004151 seconds.
+Registered in 0.003551 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025E72BDB940 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72C3A820 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E770F6C30 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72DAE320 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7288CB80 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Development.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72C45230 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77CEFFB0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72DAE320 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E730EA010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7284B010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72DAE320 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Spatializer.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72865020 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72C05370 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E771D6910 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E729841D0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E729B1BE0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7265D570 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.Utils.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7711D040 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E71F1BAF0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72C4EE40 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77F404B0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7300E840 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Development.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E78641980 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Helpers.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72A1E620 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E78509C50 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E776F1030 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E772B2030 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.Audio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E785D5010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Examples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7799B010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72A1E620 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Spatializer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E728AB010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E729EB050 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77813C20 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77716E40 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E729C37F0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77F404B0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E785D5010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72DB1B30 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -138,254 +62,498 @@ Preloading 1 native plugins for Editor in 0.06 ms.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.65.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.135 seconds
+- Completed reload, in  1.080 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.3 MB.
-System memory in use after: 124.6 MB.
+System memory in use before: 125.4 MB.
+System memory in use after: 124.7 MB.
 
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2619.
-Total: 3.180500 ms (FindLiveObjects: 0.264700 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.090900 ms  DeleteObjects: 0.734400 ms)
+Total: 2.978100 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.933300 ms  DeleteObjects: 0.702100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/ImportAssets/Oculus/VR/Scenes
-  artifactKey: Guid(68bc04068edcc1a4d89699ab4e2e69ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportAssets/Oculus/VR/Scenes using Guid(68bc04068edcc1a4d89699ab4e2e69ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02130af9969bd4c679ef651e73c4156') in 0.011310 seconds
-  Import took 0.015346 seconds .
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(95d7ea8bd88ef88418f8e27603058d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(95d7ea8bd88ef88418f8e27603058d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fd89abc733fec4f650613759c9f2db') in 0.038317 seconds
+  Import took 0.042082 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 338.358925 seconds.
-  path: Assets/ImportAssets/Oculus/VR/Scenes/HandTest_Custom.unity
-  artifactKey: Guid(c884d076d6398b54492bcc64bbe30bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportAssets/Oculus/VR/Scenes/HandTest_Custom.unity using Guid(c884d076d6398b54492bcc64bbe30bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ccef6878a78496b1ca0f4ff380e5f7') in 0.015941 seconds
-  Import took 0.019897 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/XR/Loaders/Mock HMD Loader.asset
+  artifactKey: Guid(a9702a75cdafe455c8bd67438a1978f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Mock HMD Loader.asset using Guid(a9702a75cdafe455c8bd67438a1978f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6478e824b0c3aa9eb1d47eef596d627') in 0.007396 seconds
+  Import took 0.010658 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.245229 seconds.
-  path: Assets/ImportAssets/Oculus/VR/Scenes/MRC.unity
-  artifactKey: Guid(c249320cff740054f973da7f7e24bd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportAssets/Oculus/VR/Scenes/MRC.unity using Guid(c249320cff740054f973da7f7e24bd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4c29bf4f75d8b336011be135d2f5ac') in 0.008098 seconds
+  Time since last request: 0.000201 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(9607693eb0923944cb34a7b545684670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(9607693eb0923944cb34a7b545684670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93b96885c61a5b9c6e559197b4fd0e9') in 0.007336 seconds
+  Import took 0.011007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(9c8c276d6bc2b4d92b11e180736abda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(9c8c276d6bc2b4d92b11e180736abda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff69f421a46aa17d2746a829a3b6d2') in 0.005967 seconds
+  Import took 0.009422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010196 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(9c8c276d6bc2b4d92b11e180736abda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(9c8c276d6bc2b4d92b11e180736abda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff69f421a46aa17d2746a829a3b6d2') in 0.002100 seconds
+  Import took 0.006025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.258597 seconds.
+  path: Assets/Resources/Prefabs
+  artifactKey: Guid(0efe4ef567e678242925ff379f7a4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs using Guid(0efe4ef567e678242925ff379f7a4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f884834afc0754d75dd0ba5fb71764a') in 0.001933 seconds
+  Import took 0.005629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048603 seconds.
+  path: Assets/Resources/Prefabs/VRCanvas.prefab
+  artifactKey: Guid(746aeff94bacab743a800f35cb3cf08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/VRCanvas.prefab using Guid(746aeff94bacab743a800f35cb3cf08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fe77771069838d08bde69e4fdcdf4e') in 0.033081 seconds
+  Import took 0.036744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.402425 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Editor/Oculus.VR.Editor.asmdef
+  artifactKey: Guid(d2761a0af0f567748a72629d4bb18a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Editor/Oculus.VR.Editor.asmdef using Guid(d2761a0af0f567748a72629d4bb18a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e155c4ea351dd38a6adbbef3704422') in 0.008273 seconds
   Import took 0.011881 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000585 seconds.
-  path: Assets/ImportAssets/Oculus/VR/Scenes/MRC.unity
-  artifactKey: Guid(c249320cff740054f973da7f7e24bd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportAssets/Oculus/VR/Scenes/MRC.unity using Guid(c249320cff740054f973da7f7e24bd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4c29bf4f75d8b336011be135d2f5ac') in 0.002566 seconds
-  Import took 0.006107 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003797 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025E779A8720 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7286E850 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77C27070 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E78AA7DD0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D4349F0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Development.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E783B6010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72D67C50 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77F4B0C0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E73012460 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E73181010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72F62030 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Spatializer.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7296F010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72D67C50 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E783B6010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E779A8720 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D5BE1C0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D542650 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.Utils.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D201950 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7C73A090 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E789A3010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7719B070 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D15F570 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Development.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7CFA92E0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Helpers.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E73012460 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7B630CE0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72BDB940 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CE5BDB810 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.Audio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CE5BDB810 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Examples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E771A4AF0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E73012460 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Spatializer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D4B5420 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72888140 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E790BBC40 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72A13380 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E779D6130 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7719B070 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E79F21820 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D0AAD20 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2043 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2623.
-Total: 3.189700 ms (FindLiveObjects: 0.395300 ms CreateObjectMapping: 0.075800 ms MarkObjects: 1.990300 ms  DeleteObjects: 0.726200 ms)
+  Time since last request: 2.180445 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/Arrow.mat
+  artifactKey: Guid(669025377795b574da66d9bb2472fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/Arrow.mat using Guid(669025377795b574da66d9bb2472fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6578a642c20a9589b271b611f3f019c6') in 0.086997 seconds
+  Import took 0.090693 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.599904 seconds.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/PlainMaterial.mat
+  artifactKey: Guid(26cadeeaa29498d4889f43542f3add58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/PlainMaterial.mat using Guid(26cadeeaa29498d4889f43542f3add58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c025aef02499b60d3d7129336978e44c') in 0.013833 seconds
+  Import took 0.017607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/SelfieMat.mat
+  artifactKey: Guid(8bad5fdcacc3848e08780239d9578531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/SelfieMat.mat using Guid(8bad5fdcacc3848e08780239d9578531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2376b7575787c56f638f4fee341661') in 0.011489 seconds
+  Import took 0.015626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/BasicHandMaterial.mat
+  artifactKey: Guid(5ba7d209f622bb44e87b47ce27ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/BasicHandMaterial.mat using Guid(5ba7d209f622bb44e87b47ce27ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab39ea95ac29ce3e34711b366359125') in 0.030271 seconds
+  Import took 0.033865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/CubeMaterial.mat
+  artifactKey: Guid(62db2d638434d5a488dfb1e789e34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/CubeMaterial.mat using Guid(62db2d638434d5a488dfb1e789e34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e64d5f2ab0eee46c36ec5c0ef3a40b2') in 0.016927 seconds
+  Import took 0.020926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/BasicHandMaterial.mat
+  artifactKey: Guid(5ba7d209f622bb44e87b47ce27ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/BasicHandMaterial.mat using Guid(5ba7d209f622bb44e87b47ce27ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab39ea95ac29ce3e34711b366359125') in 0.049157 seconds
+  Import took 0.052574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/SelfieImage.mat
+  artifactKey: Guid(52ef173c94de14120b0d05f281d20054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/SelfieImage.mat using Guid(52ef173c94de14120b0d05f281d20054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e535ca7d58808931bc625dde60364f') in 0.011599 seconds
+  Import took 0.014998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/gaze_cursor.mat
+  artifactKey: Guid(7f31de375e167154aa45929466af30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/gaze_cursor.mat using Guid(7f31de375e167154aa45929466af30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd633c2c03ba76cd2930affbfc1abbc41') in 0.018120 seconds
+  Import took 0.022031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/cursor_timer_material.mat
+  artifactKey: Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/cursor_timer_material.mat using Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156759e5e53e173636346714df041625') in 0.022736 seconds
+  Import took 0.026597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Materials/GazePointer.mat
+  artifactKey: Guid(3fac3b9744290eb4c89b0e4ffd5fe085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Materials/GazePointer.mat using Guid(3fac3b9744290eb4c89b0e4ffd5fe085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f270ecf4e74308be4180d10deed052b6') in 0.018020 seconds
+  Import took 0.021867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441771 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/Cone.obj
+  artifactKey: Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/Cone.obj using Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f393302d87b3fc0ef40344357ed7f29e') in 0.083487 seconds
+  Import took 0.087199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.338952 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS
+  artifactKey: Guid(2fd2b8bc5b4516243b0b24003c6e439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS using Guid(2fd2b8bc5b4516243b0b24003c6e439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcff53e845025fad35ffec3f2f4962d3') in 0.006271 seconds
+  Import took 0.009837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096347 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx
+  artifactKey: Guid(32fbc8bcebb64584da5868aeeb086cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx using Guid(32fbc8bcebb64584da5868aeeb086cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0477d0cafa9e588f7b24ce3299eb9e87') in 0.734988 seconds
+  Import took 0.740822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
+  artifactKey: Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx using Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403533721868376b470ea4d3f985c6a9') in 0.028707 seconds
+  Import took 0.032229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003037 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
+  artifactKey: Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx using Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403533721868376b470ea4d3f985c6a9') in 0.026087 seconds
+  Import took 0.030170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.008799 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials
+  artifactKey: Guid(e2780dbfd762e7241a81199a8839ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials using Guid(e2780dbfd762e7241a81199a8839ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c19fd4007bc08ac0ca8b37b452cad') in 0.006082 seconds
+  Import took 0.009746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051036 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+  artifactKey: Guid(01ac879f6ce09924e9c26663f798beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat using Guid(01ac879f6ce09924e9c26663f798beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b991d545f96fd1fb3dd4af3e018ac78e') in 0.018211 seconds
+  Import took 0.022797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.709655 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Left.fbx
+  artifactKey: Guid(8b83018900d13bb4f8e0ad895cb004e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Left.fbx using Guid(8b83018900d13bb4f8e0ad895cb004e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60405e1ee24ae4f573409f1d6eb1474f') in 0.027772 seconds
+  Import took 0.031735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx
+  artifactKey: Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx using Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b428b099a849dc48b786c622ae91d899') in 0.025435 seconds
+  Import took 0.029118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx
+  artifactKey: Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx using Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b428b099a849dc48b786c622ae91d899') in 0.023849 seconds
+  Import took 0.027832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.385711 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/HandTracking/OculusHand_L.fbx
+  artifactKey: Guid(442d5b4503ed83c4897ef44659446587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/HandTracking/OculusHand_L.fbx using Guid(442d5b4503ed83c4897ef44659446587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55387113a6a3ea60b0c8b1cd930abf1f') in 0.032120 seconds
+  Import took 0.036132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Meshes/HandTracking/OculusHand_R.fbx
+  artifactKey: Guid(88e2e1bfe11ec6c438b0ade27eaeded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Meshes/HandTracking/OculusHand_R.fbx using Guid(88e2e1bfe11ec6c438b0ade27eaeded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c607a5a7b9668b9f95ea05d879023e0c') in 0.031307 seconds
+  Import took 0.035053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.473417 seconds.
+  path: Assets/ImportAssets/Oculus/SampleFramework/Core/DebugUI/Prefabs/DebugUITestCanvas.prefab
+  artifactKey: Guid(fd91514fcd2ef484c8fbdbb2e2b504c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/SampleFramework/Core/DebugUI/Prefabs/DebugUITestCanvas.prefab using Guid(fd91514fcd2ef484c8fbdbb2e2b504c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf0a201a618384fdf37dae11d3cf3a9') in 0.093088 seconds
+  Import took 0.098755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/SampleScenes/Textures/GUIButtonEmpty.png
+  artifactKey: Guid(c65405de1316e7f47b4884a5143589cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/GUIButtonEmpty.png using Guid(c65405de1316e7f47b4884a5143589cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355d33ecde69a7c246624bace0501130') in 0.035520 seconds
+  Import took 0.038856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FlexFluidMaterial.mat
+  artifactKey: Guid(fcd3fb6f61f1e164ea4cae0d31d14062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FlexFluidMaterial.mat using Guid(fcd3fb6f61f1e164ea4cae0d31d14062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1ef479c787c29a5dffb7096971af62') in 0.017602 seconds
+  Import took 0.021506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FlexDrawFluid.mat
+  artifactKey: Guid(e6bb4a2d00eee9b44a69e6352f81d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FlexDrawFluid.mat using Guid(e6bb4a2d00eee9b44a69e6352f81d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d869fe8a932b8d86e8a64b9f1a08ba') in 0.150893 seconds
+  Import took 0.154894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/ImportAssets/Oculus/SampleFramework/Usage/DistanceGrab/Prefabs/DistanceGrabSquirtGunPf.prefab
+  artifactKey: Guid(22b887b25a8d6409588281047bba5d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/SampleFramework/Usage/DistanceGrab/Prefabs/DistanceGrabSquirtGunPf.prefab using Guid(22b887b25a8d6409588281047bba5d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c95331a2ee3e7aa696a77a1c04f6c4') in 0.313038 seconds
+  Import took 0.316426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidDepthBlur.mat
+  artifactKey: Guid(6371d4cbdc883d941b179b7da24889f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidDepthBlur.mat using Guid(6371d4cbdc883d941b179b7da24889f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9524046e72b2e0202717fa52160e8e') in 0.010464 seconds
+  Import took 0.013589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidThickness.mat
+  artifactKey: Guid(da6d225a7fed32d49aaf88cbb91b2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidThickness.mat using Guid(da6d225a7fed32d49aaf88cbb91b2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97cb1e46fa3d1370fe2dc099f847c40') in 0.012974 seconds
+  Import took 0.016342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidDepth.mat
+  artifactKey: Guid(118d5a06fd19341499cbd860d0819ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidDepth.mat using Guid(118d5a06fd19341499cbd860d0819ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c7d284baf88c8dfdb0e11825d55c65') in 0.011957 seconds
+  Import took 0.015390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidComposite.mat
+  artifactKey: Guid(1101abf88ad8c2144a7f547756df0a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/NVIDIA/Flex/Resources/Materials/FluidComposite.mat using Guid(1101abf88ad8c2144a7f547756df0a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d76a81b811c4cb34211267e6239fee2') in 0.011994 seconds
+  Import took 0.015798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.376548 seconds.
+  path: Assets/ImportAssets/Oculus/SampleFramework/Core/DebugUI/Prefabs/UIHelpers.prefab
+  artifactKey: Guid(a9d2de84afb308a4796cc671d3432b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/SampleFramework/Core/DebugUI/Prefabs/UIHelpers.prefab using Guid(a9d2de84afb308a4796cc671d3432b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cf27f803769e938964ffee27dbdbba') in 0.035577 seconds
+  Import took 0.039356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 418.623363 seconds.
+  path: Assets/ImportAssets/Oculus/VR/Scenes/UI.unity
+  artifactKey: Guid(1f4d3ae64a10d434db219de8b14348e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Oculus/VR/Scenes/UI.unity using Guid(1f4d3ae64a10d434db219de8b14348e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd101182b14c6f3ade97cd9d669794ccb') in 0.008272 seconds
+  Import took 0.012396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.123263 seconds.
   path: Assets/Scenes/StartScene.unity
   artifactKey: Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StartScene.unity using Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca5faff0984ad7d22582df2c17db4c1') in 0.029149 seconds
-  Import took 0.033218 seconds .
+Start importing Assets/Scenes/StartScene.unity using Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c89810f921e6ff1221a11b96efdd0b') in 0.002381 seconds
+  Import took 0.006024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.411040 seconds.
+  path: Assets/Scripts/Menubotan.cs
+  artifactKey: Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menubotan.cs using Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f6369b8b3be6c1e9d3651b8323b929') in 0.014513 seconds
+  Import took 0.018236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107953 seconds.
+  path: Assets/Scripts/Menubotan.cs
+  artifactKey: Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menubotan.cs using Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f6369b8b3be6c1e9d3651b8323b929') in 0.002378 seconds
+  Import took 0.006314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.545058 seconds.
+  path: Assets/Scripts/MoveOcean.cs
+  artifactKey: Guid(06a17eebffb8a2842b93f26e6a3a3406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveOcean.cs using Guid(06a17eebffb8a2842b93f26e6a3a3406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0675855c9c57a9fd9242d51daa299f16') in 0.006079 seconds
+  Import took 0.009981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004733 seconds.
+  path: Assets/Scripts/MoveOcean.cs
+  artifactKey: Guid(06a17eebffb8a2842b93f26e6a3a3406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveOcean.cs using Guid(06a17eebffb8a2842b93f26e6a3a3406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0675855c9c57a9fd9242d51daa299f16') in 0.001943 seconds
+  Import took 0.005974 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003890 seconds.
+Registered in 0.004386 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025E77947010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7B5335F0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7B6B0BE0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7CFB3760 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025EA06E1280 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Development.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E787A8010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72A01010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7A961AB0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D1E1D60 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E73181010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Platform.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CE5BD7E30 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Spatializer.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E77F26ED0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72A01010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7A7F0F20 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7A374050 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7BD5D850 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D53E1B0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.Utils.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7C8D8400 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7C739370 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7A39B740 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7B5328B0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025EA0446630 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Development.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025EA07A60A0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Helpers.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E72A1E620 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7B6300D0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Platform.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7A374050 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CE5BD37B0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.AudioManager.Audio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CE5BD37B0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Crest.Examples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7B26A010 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D1D9C40 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.Spatializer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7C8ED220 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.LipSync.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D5A7290 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E771D8D00 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7C19E500 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7CCF1700 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Oculus.LipSync.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7CEC4B90 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CE5BD37B0 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E7D0AA810 doesn't match image D:\Unity\TsunamiVR01\TsunamiVRUnityProject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  1.181 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 1.13 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2043 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 112.2 MB.
+Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 129.6 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2627.
-Total: 3.212900 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.010600 ms  DeleteObjects: 0.797100 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2674.
+Total: 2.810600 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.794800 ms  DeleteObjects: 0.692300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2678.
+Total: 3.973300 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.493500 ms  DeleteObjects: 0.994500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.818958 seconds.
+  path: Assets/Scripts/Menubotan.cs
+  artifactKey: Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menubotan.cs using Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9225f5d1c6b0fa726cc7ff209f6c7fac') in 0.006072 seconds
+  Import took 0.010216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.903979 seconds.
+  path: Assets/Scripts/MenuScript.cs
+  artifactKey: Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuScript.cs using Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca5e6ae98360f020fdd7d35c7d4248') in 0.007873 seconds
+  Import took 0.011722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/Scripts/MenuScript.cs
+  artifactKey: Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuScript.cs using Guid(7e7fdfa99a28ac344ab4e5bbcfb829b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca5e6ae98360f020fdd7d35c7d4248') in 0.002090 seconds
+  Import took 0.006632 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 3.645600 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.362700 ms  DeleteObjects: 0.862800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2686.
+Total: 3.570800 ms (FindLiveObjects: 0.370900 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.185800 ms  DeleteObjects: 0.933600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
