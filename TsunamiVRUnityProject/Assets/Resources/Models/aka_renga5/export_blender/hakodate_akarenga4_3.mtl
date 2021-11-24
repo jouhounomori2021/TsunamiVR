@@ -1,0 +1,13 @@
+#
+# Wavefront material file
+# Created in RealityCapture
+# Engine version v1.2.0.16813
+#
+
+newmtl hakodate_akarenga4_3
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd hakodate_akarenga4_3_u0_v0.png
