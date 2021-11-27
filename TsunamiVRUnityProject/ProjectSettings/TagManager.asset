@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ghost
   - wave
+  - wave2
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - wave1
+  - wave2
   - Ghost
   - 
   - 

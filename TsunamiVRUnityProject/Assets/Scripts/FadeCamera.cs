@@ -19,7 +19,7 @@ public class FadeCamera : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("wave"))
+        if (other.CompareTag("wave2"))
         {
             fade.FadeOut();
             Invoke(nameof(SwitchScene), 3.0f);
