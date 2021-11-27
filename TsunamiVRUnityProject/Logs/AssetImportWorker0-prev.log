@@ -1,0 +1,119 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/TsunamiVR1/TsunamiVRUnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52653
+Successfully changed project path to: D:/Unity/TsunamiVR1/TsunamiVRUnityProject
+D:/Unity/TsunamiVR1/TsunamiVRUnityProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.88 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.31 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/TsunamiVR1/TsunamiVRUnityProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.9613
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003328 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.29 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.524 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.65.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2620.
+Total: 3.010700 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.979600 ms  DeleteObjects: 0.712700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ada8d3d42b501925bd644dc993c55e') in 0.018213 seconds
+  Import took 0.021866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Scenes/Main Scene_akarenga.unity
+  artifactKey: Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene_akarenga.unity using Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316c3bf9054bd6133a36bbf9acc2572f') in 0.007428 seconds
+  Import took 0.010722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437184 seconds.
+  path: Assets/Scenes/MainScene_akarenga.unity
+  artifactKey: Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_akarenga.unity using Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0739e7b930c07dda7b797325f8c6e75') in 0.017716 seconds
+  Import took 0.021254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.090626 seconds.
+  path: Assets/Scenes/MainScene_station.unity
+  artifactKey: Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_station.unity using Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6951b88826be0a486407328a5388a99') in 0.010160 seconds
+  Import took 0.014602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.146950 seconds.
+  path: Assets/Scenes/MainScene_akarenga.unity
+  artifactKey: Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_akarenga.unity using Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a1ec54f39004afbd96030c2a606fe7') in 0.002410 seconds
+  Import took 0.006551 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
