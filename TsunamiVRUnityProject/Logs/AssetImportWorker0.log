@@ -15,12 +15,12 @@ D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49446
+52653
 Successfully changed project path to: D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 D:/Unity/TsunamiVR1/TsunamiVRUnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.63 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 1.39 ms.
+Refreshing native plugins compatible for Editor in 88.88 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.31 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity/TsunamiVR1/TsunamiVRUnityProject/Assets
@@ -36,326 +36,84 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003554 seconds.
+Registered in 0.003328 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.56 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 79.29 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.577 seconds
+- Completed reload, in  2.524 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003694 seconds.
+Registered in 0.003391 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.65.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
+- Completed reload, in  1.118 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.5 MB.
+System memory in use before: 125.6 MB.
 System memory in use after: 124.9 MB.
 
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2620.
-Total: 3.187000 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.066100 ms MarkObjects: 2.078000 ms  DeleteObjects: 0.732100 ms)
+Total: 3.010700 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.979600 ms  DeleteObjects: 0.712700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_u0_v0.png
-  artifactKey: Guid(bc1a3f33b37f4ac43b4f21d8b59580bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_u0_v0.png using Guid(bc1a3f33b37f4ac43b4f21d8b59580bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c97b3f5bf9bb54dd726304c961a65b') in 0.129180 seconds
-  Import took 0.132971 seconds .
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(051f0af2ca1dc6d42b5f0fc2f4f67595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ada8d3d42b501925bd644dc993c55e') in 0.018213 seconds
+  Import took 0.021866 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.obj
-  artifactKey: Guid(6e6661d4b31712945a13d518f51a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.obj using Guid(6e6661d4b31712945a13d518f51a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c19f5f4b6b8fea11dc4ffac5b2e561') in 0.138562 seconds
-  Import took 0.142500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.obj.rcInfo
-  artifactKey: Guid(71bb90d4ff321a94984e550cfd266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.obj.rcInfo using Guid(71bb90d4ff321a94984e550cfd266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb427fd739e40896eb9dacc728daaecb') in 0.010666 seconds
-  Import took 0.014422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Resources/Models/aka_renga4_1
-  artifactKey: Guid(65c05f657948b82419e10871a77d24fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga4_1 using Guid(65c05f657948b82419e10871a77d24fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0181ab46b2c26290cbc1a2486da7b3e6') in 0.007267 seconds
-  Import took 0.011181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.492338 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(7a9d90e1f05a8e34ea78ef82d29e34ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(7a9d90e1f05a8e34ea78ef82d29e34ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaf6c08092b53160ffb170965f64057') in 0.007335 seconds
-  Import took 0.012515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.688843 seconds.
-  path: Assets/Scenes/MainScene_akarenga.unity
-  artifactKey: Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene_akarenga.unity using Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e1235679fec9a84a42d0a6540cbd14') in 0.007261 seconds
-  Import took 0.011124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.923022 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(c8b69045d0e22474e869f9fd3e7641eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(c8b69045d0e22474e869f9fd3e7641eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfadd4cb015c6fa54801b9cc0c3e6b4') in 0.009613 seconds
-  Import took 0.013517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.043618 seconds.
-  path: Assets/Resources/Models/hakodate_station
-  artifactKey: Guid(57c8d79729a73c149a69fcb96b6fee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodate_station using Guid(57c8d79729a73c149a69fcb96b6fee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996f67549e01ccfc89e3c34c72891437') in 0.007240 seconds
-  Import took 0.011062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.390553 seconds.
-  path: Assets/Resources/Models/hakodatebrige
-  artifactKey: Guid(d846f2ce91515c540a7f02d0ab8ca12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodatebrige using Guid(d846f2ce91515c540a7f02d0ab8ca12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03394a48d72fe7566bfd653838eee715') in 0.002353 seconds
-  Import took 0.006258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.227546 seconds.
-  path: Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.mtl
-  artifactKey: Guid(aaa4f8dccf8e65543b2d065aef88427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.mtl using Guid(aaa4f8dccf8e65543b2d065aef88427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a427e3b90ddbb25ec1edfa1d90e0b7') in 0.004614 seconds
-  Import took 0.008664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.991390 seconds.
-  path: Assets/Resources/Models/hakodatebrige/hakodate_brige_u1_v1.png
-  artifactKey: Guid(3a8c4152eb3333f4680ba97bcbe2ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodatebrige/hakodate_brige_u1_v1.png using Guid(3a8c4152eb3333f4680ba97bcbe2ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3ef823c68de923b6e7fcd73284ce88') in 0.014674 seconds
-  Import took 0.018567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Resources/Models/hakodatebrige/untitled.fbx
-  artifactKey: Guid(fba504c9234776444aa0cb5b309a65cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodatebrige/untitled.fbx using Guid(fba504c9234776444aa0cb5b309a65cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736a6edc9281b36d8b639c667bd639b7') in 0.165797 seconds
-  Import took 0.173877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.608009 seconds.
-  path: Assets/Resources/Models/hakodate_station/export_blender
-  artifactKey: Guid(0c189f146543aa44aacf0e6c8b8a8ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodate_station/export_blender using Guid(0c189f146543aa44aacf0e6c8b8a8ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d312df8638761e4c005c27b9be0efe1') in 0.006608 seconds
-  Import took 0.010955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044576 seconds.
-  path: Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2.obj
-  artifactKey: Guid(773df264e4713e245a7c2d7157990af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2.obj using Guid(773df264e4713e245a7c2d7157990af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580858a36d2d4bcb6ceb1db58f106e36') in 0.037049 seconds
-  Import took 0.042163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2_u0_v0.png
-  artifactKey: Guid(6791d1313cad6e14face3485c0ff7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2_u0_v0.png using Guid(6791d1313cad6e14face3485c0ff7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fd2ae73ee05a37a7ba4f3a2f8f9be9') in 0.015364 seconds
-  Import took 0.020316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.410592 seconds.
-  path: Assets/Resources/Prefabs
-  artifactKey: Guid(941c0c807a6679145922d7bd0fb19ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs using Guid(941c0c807a6679145922d7bd0fb19ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8aff483b4889f30079b0bbd5694cf7') in 0.002224 seconds
-  Import took 0.006262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.749396 seconds.
-  path: Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.obj
-  artifactKey: Guid(6e6661d4b31712945a13d518f51a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2.obj using Guid(6e6661d4b31712945a13d518f51a45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42d9ba649503283c78ce62102776c3f') in 0.029070 seconds
-  Import took 0.034405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.533068 seconds.
-  path: Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2.mtl
-  artifactKey: Guid(729ccd84b5c190047bf32e5006584d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2.mtl using Guid(729ccd84b5c190047bf32e5006584d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25160dd4ee85bb7f7c0b026fbc3cf991') in 0.002870 seconds
-  Import took 0.006725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.355216 seconds.
-  path: Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2.obj.rcInfo
-  artifactKey: Guid(aaf921857509bd1408a43e027447a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/hakodate_station/export_blender/hakodate_station2.obj.rcInfo using Guid(aaf921857509bd1408a43e027447a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0f224aa664b485087c1b33ce45a03b') in 0.008480 seconds
-  Import took 0.012261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.082112 seconds.
-  path: Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2_u0_v0.png
-  artifactKey: Guid(eae73114c33bf04449dede1dea14e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga4_1/hakodate_akarenga4_2_u0_v0.png using Guid(eae73114c33bf04449dede1dea14e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d14a78f2a3cb124f34a78dc978f73e') in 0.016466 seconds
-  Import took 0.020837 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003955 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.4 MB.
-System memory in use after: 115.7 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2668.
-Total: 2.869300 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.864800 ms  DeleteObjects: 0.670500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2053.903965 seconds.
-  path: Assets/Resources/Models/Materials/defaultMat.mat
-  artifactKey: Guid(962bed53ffa6cb34eb983300c21f5071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/Materials/defaultMat.mat using Guid(962bed53ffa6cb34eb983300c21f5071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bbc9058935a6fb31415fabe93b7a5d') in 0.089884 seconds
-  Import took 0.094469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 833.127887 seconds.
-  path: Assets/Resources/Models/aka_renga5
-  artifactKey: Guid(d5620b2c4f541454899529cdf1c84b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga5 using Guid(d5620b2c4f541454899529cdf1c84b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4285b7725fe723037868da554719b87a') in 0.006933 seconds
-  Import took 0.010914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.316271 seconds.
+  Time since last request: 0.000227 seconds.
   path: Assets/Scenes/Main Scene_akarenga.unity
   artifactKey: Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Scene_akarenga.unity using Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9e69b19ffd059c367c9d16d3e39991') in 0.007389 seconds
-  Import took 0.011533 seconds .
+Start importing Assets/Scenes/Main Scene_akarenga.unity using Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316c3bf9054bd6133a36bbf9acc2572f') in 0.007428 seconds
+  Import took 0.010722 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.248664 seconds.
-  path: Assets/Resources/Models/aka_renga5/export_blender
-  artifactKey: Guid(c4b796aa03ebef5439f9696ceae86d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga5/export_blender using Guid(c4b796aa03ebef5439f9696ceae86d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61de60d7e9c2309346c46c02edb2d9f5') in 0.002246 seconds
-  Import took 0.006225 seconds .
+  Time since last request: 0.437184 seconds.
+  path: Assets/Scenes/MainScene_akarenga.unity
+  artifactKey: Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_akarenga.unity using Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0739e7b930c07dda7b797325f8c6e75') in 0.017716 seconds
+  Import took 0.021254 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/Resources/Models/aka_renga5/export_blender
-  artifactKey: Guid(c4b796aa03ebef5439f9696ceae86d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga5/export_blender using Guid(c4b796aa03ebef5439f9696ceae86d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61de60d7e9c2309346c46c02edb2d9f5') in 0.001990 seconds
-  Import took 0.005804 seconds .
+  Time since last request: 61.090626 seconds.
+  path: Assets/Scenes/MainScene_station.unity
+  artifactKey: Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_station.unity using Guid(4afc5c8fab2a2684ea0e93a827dfb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6951b88826be0a486407328a5388a99') in 0.010160 seconds
+  Import took 0.014602 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.051937 seconds.
-  path: Assets/Resources/Models/aka_renga5/export_blender/hakodate_akarenga4_3.obj
-  artifactKey: Guid(c4c6052221a95994798981b1604a5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga5/export_blender/hakodate_akarenga4_3.obj using Guid(c4c6052221a95994798981b1604a5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270866904dbc014c923bac7ce650ca2f') in 0.074554 seconds
-  Import took 0.079509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Resources/Models/aka_renga5/export_blender/hakodate_akarenga4_3_u0_v0.png
-  artifactKey: Guid(5bfd908240bbb5f479b6f289327e647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/aka_renga5/export_blender/hakodate_akarenga4_3_u0_v0.png using Guid(5bfd908240bbb5f479b6f289327e647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1640e881f6a77d77dd924090ac8bae20') in 0.020126 seconds
-  Import took 0.024822 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003905 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.5 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2673.
-Total: 2.867300 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.777300 ms  DeleteObjects: 0.777500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004234 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.5 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 3.240300 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.020700 ms  DeleteObjects: 0.865300 ms)
+  Time since last request: 8.146950 seconds.
+  path: Assets/Scenes/MainScene_akarenga.unity
+  artifactKey: Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_akarenga.unity using Guid(508d0fb972e7c7d43ba2affa1f693259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a1ec54f39004afbd96030c2a606fe7') in 0.002410 seconds
+  Import took 0.006551 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
