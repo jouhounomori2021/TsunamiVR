@@ -35,7 +35,17 @@ public class ButtonManagerScript : MonoBehaviour
     /* MainScene‚ÖˆÚs‚·‚éƒ{ƒ^ƒ“‚Ì“®ì */
     public void ToMainButton()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Yunokawa");
+    }
+
+    public void ToAkarengaButton()
+    {
+        SceneManager.LoadScene("Akarenga");
+
+    }
+    public void ToStationButton()
+    {
+        SceneManager.LoadScene("Station");
     }
 
 }
